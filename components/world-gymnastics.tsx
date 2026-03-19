@@ -187,19 +187,7 @@ export function WorldGymnastics() {
           {/* Sidebar / Extra info - 1 column wide on large screens */}
           <div className="space-y-8">
 
-            {/* Marketing & Media */}
-            <div className="bg-card border border-border rounded-3xl p-8">
-              <div className="h-48 w-full relative rounded-xl overflow-hidden mb-6 border border-border">
-                <img src="/images/gymnastics_marketing_v3.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Inclusive Global Marketing & Media" />
-              </div>
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Marketing & Media</h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Our high-impact social media campaign will drive unprecedented reach and visibility across the globe. By using multi-lingual content and highly diverse imagery, we ensure broad cultural connection with Generation Alpha.
-              </p>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong>The Documentary:</strong> A dedicated documentary-style web series will capture the genuine journey of legends and trailblazers interacting with the Mixed Flow format. This provides deep storytelling value, connecting deeply with fans on digital and social platforms simultaneously.
-              </p>
-            </div>
+
 
             {/* Infrastructure Efforts */}
             <div className="bg-card border border-border rounded-3xl p-8">
@@ -252,24 +240,16 @@ export function WorldGymnastics() {
             <div className="bg-card border border-border rounded-3xl p-8">
               <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Feasibility Roadmap</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Our expert Finance team has thoroughly examined the projected cost. WG certification and development costs stand at 450,000 Euro. We estimate a discounted cash flow of 1,005,000 Euro over five years (2030-2035) from New Sponsorship, Digital Media Rights, Licensing, and Asset Terminal Value.
+                Our expert Finance team has thoroughly examined the projected cost. WG certification and development costs stand at 450,000 Euro. We estimate a discounted cash flow of 1,005,000 Euro over five years (2030-2035) from New Sponsorship, Licensing, and Asset Terminal Value.
               </p>
               <ul className="space-y-4">
                 <li className="flex justify-between items-center border-b border-border pb-4">
                   <span className="text-sm font-medium text-foreground">Initial Cost</span>
                   <span className="text-lg font-bold text-accent">€450,000</span>
                 </li>
-                <li className="flex justify-between items-center border-b border-border pb-4">
+                <li className="flex justify-between items-center pt-2">
                   <span className="text-sm font-medium text-foreground">Estimated ROI</span>
                   <span className="text-lg font-bold text-emerald-500">~14%</span>
-                </li>
-                <li className="flex justify-between items-center border-b border-border pb-4">
-                  <span className="text-sm font-medium text-foreground">SROI Constraint</span>
-                  <span className="text-lg font-bold text-emerald-500">€0.44 / viewer</span>
-                </li>
-                <li className="flex justify-between items-center pt-2">
-                  <span className="text-sm font-medium text-foreground">Projected 2030 Audience</span>
-                  <span className="text-lg font-bold text-emerald-500">2M Gen Alpha</span>
                 </li>
               </ul>
             </div>
@@ -293,9 +273,9 @@ export function WorldGymnastics() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
-              { title: "Kickoff Phase", phase: "1", desc: "High-impact media campaign, Legends Show (Dakar 2026), documentary web series, & broadcast value creation.", icon: "🚀" },
+              { title: "Kickoff Phase", phase: "1", desc: "Legends Show (Dakar 2026). Showcasing technical excellence and innovation potential to lay the baseline for future development.", icon: "🚀" },
               { title: "Seed Phase", phase: "2", desc: "Q4 2026 – Q2 2027: Building operational staff, creating 5 continental hubs, and accrediting international coaches/judges.", icon: "🌱" },
-              { title: "Pilot Phase", phase: "3", desc: "Lima 2027 (Pan Am & Parapan Games): 5 teams representing the rings. Targeting 90% positive athlete feedback and 15% increase in youth viewership.", icon: "🎯" },
+              { title: "Pilot Phase", phase: "3", desc: "Lima 2027 (Pan Am & Parapan Games): 5 teams representing the rings. Targeting 90% positive athlete feedback on operational safety.", icon: "🎯" },
               { title: "Expansion Phase", phase: "4", desc: "2028–2029: Distribute global ruleset & accredit 100+ international judges and 500+ coaches via train-the-trainer hubs.", icon: "🌍" },
               { title: "Roll-Out Phase", phase: "5", desc: "2029–2030: Final integration into the 2030 YOG program as a permanent Mixed-Gender Team Discipline for both able-bodied and para-athletes.", icon: "🏆" }
             ].map((item) => (
