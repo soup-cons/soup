@@ -8,7 +8,7 @@ export function WorldGymnastics() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
             Latest Initiative
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
             Mixed Flow Gymnastics
           </h2>
           <p className="mt-6 text-xl text-muted-foreground leading-relaxed">
@@ -25,7 +25,7 @@ export function WorldGymnastics() {
               <div className="h-64 sm:h-80 w-full relative rounded-2xl overflow-hidden mb-6 border border-border">
                 <img src="/images/gymnastics_intro_v2_1773844783081.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Gymnastics Introduction" />
               </div>
-              <h3 className="font-serif text-2xl font-semibold text-foreground">Introduction</h3>
+              <h3 className="font-heading text-2xl font-semibold text-foreground">Introduction</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 The era of Generation Alpha has arrived. For sports organizations, adaptation is a requirement for survival; failure to evolve risks total irrelevance. WG sits at a crossroads. While the sport connects with this demographic, it faces a looming star vacuum.
               </p>
@@ -39,7 +39,7 @@ export function WorldGymnastics() {
               <div className="h-64 sm:h-80 w-full relative rounded-2xl overflow-hidden mb-6 border border-border">
                 <img src="/images/gymnastics_governing_v2_1773844802219.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Governing and Safeguarding" />
               </div>
-              <h3 className="font-serif text-2xl font-semibold text-foreground">Governing & Structure</h3>
+              <h3 className="font-heading text-2xl font-semibold text-foreground">Governing & Structure</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Scandals have revealed serious failures within elite gymnastics, demonstrating the need for stronger global protection. The first pillar focuses on strengthening safeguarding and coaching standards worldwide through a mandatory WG digital learning platform yielding a Global Youth Coaching License. This is reinforced by a global eligibility register closing safeguarding gaps.
               </p>
@@ -50,7 +50,7 @@ export function WorldGymnastics() {
               <div className="h-64 sm:h-80 w-full relative rounded-2xl overflow-hidden mb-6 border border-border">
                 <img src="/images/gymnastics_format_v3.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Mixed Flow Gymnastics Format" />
               </div>
-              <h3 className="font-serif text-2xl font-semibold text-foreground">Format</h3>
+              <h3 className="font-heading text-2xl font-semibold text-foreground">Format</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Under the Artistic discipline, Mixed Flow Gymnastics balances athlete diversity with competitive excellence. It merges technical mastery with raw creativity, aiming at Generation Alpha. The format features direct confrontations between two mixed teams of four gymnasts (two women and two men) across four rounds. Scoring components are:
               </p>
@@ -71,7 +71,7 @@ export function WorldGymnastics() {
             {/* Trail Blazers */}
             <div className="space-y-8 pb-12">
               <div className="space-y-4">
-                <h3 className="font-serif text-2xl font-semibold text-foreground">Trail Blazers: Dakar 2026 Show</h3>
+                <h3 className="font-heading text-2xl font-semibold text-foreground">Trail Blazers: Dakar 2026 Show</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   The proposed athlete lineup combines globally recognized stars and emerging talents, ensuring a balance between media appeal, technical excellence, and innovation potential.
                 </p>
@@ -81,7 +81,7 @@ export function WorldGymnastics() {
               <div className="space-y-12">
                 {/* Team A */}
                 <div>
-                  <h4 className="font-serif text-xl font-bold text-accent mb-6 flex items-center gap-2">
+                  <h4 className="font-heading text-xl font-bold text-accent mb-6 flex items-center gap-2">
                     Team A – Brazil / Americas
                   </h4>
                   <div className="grid sm:grid-cols-2 gap-6">
@@ -130,7 +130,7 @@ export function WorldGymnastics() {
 
                 {/* Team B */}
                 <div>
-                  <h4 className="font-serif text-xl font-bold text-accent mb-6 flex items-center gap-2">
+                  <h4 className="font-heading text-xl font-bold text-accent mb-6 flex items-center gap-2">
                     Team B – USA / North America
                   </h4>
                   <div className="grid sm:grid-cols-2 gap-6">
@@ -194,7 +194,7 @@ export function WorldGymnastics() {
               <div className="h-48 w-full relative rounded-xl overflow-hidden mb-6 border border-border">
                 <img src="/images/gymnastics_infrastructure_v2_1773844837358.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Modern Gymnastics Infrastructure" />
               </div>
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Infrastructure & Ecosystem</h3>
+              <h3 className="font-heading text-xl font-bold text-card-foreground mb-4">Infrastructure & Ecosystem</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 Five continental educational hubs will serve as centers for knowledge sharing. Gymnova, Spieth Gymnastics, Taishan Sports, and Senoh provide equipment and facility support. International finance flow will be handled by Corpay, while Olympic Solidarity and the Gymnastics Ethics Foundation will oversee coach education. Our approach is based on the 5'C coaching model by Boldly: Connection, Clarity, Commitment, Challenge, and Change.
               </p>
@@ -216,7 +216,7 @@ export function WorldGymnastics() {
 
             {/* Trail Blazers Reasoning */}
             <div className="bg-card border border-border rounded-3xl p-8">
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Scouting: Why Brazil & USA?</h3>
+              <h3 className="font-heading text-xl font-bold text-card-foreground mb-4">Scouting: Why Brazil & USA?</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 The selection of these epicenters is highly strategic:
               </p>
@@ -238,7 +238,7 @@ export function WorldGymnastics() {
 
             {/* Feasibility */}
             <div className="bg-card border border-border rounded-3xl p-8">
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Feasibility Roadmap</h3>
+              <h3 className="font-heading text-xl font-bold text-card-foreground mb-4">Feasibility Roadmap</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Our expert Finance team has thoroughly examined the projected cost. WG certification and development costs stand at 450,000 Euro. We estimate a discounted cash flow of 1,005,000 Euro over five years (2030-2035) from New Sponsorship, Licensing, and Asset Terminal Value.
               </p>
@@ -261,7 +261,7 @@ export function WorldGymnastics() {
         <div className="space-y-12 pt-20 mt-12 border-t border-border">
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent">Strategic Map</p>
-            <h3 className="font-serif text-3xl md:text-5xl font-bold text-foreground font-balance">Implementation Plan</h3>
+            <h3 className="font-heading text-3xl md:text-5xl font-bold text-foreground font-balance">Implementation Plan</h3>
             <p className="text-xl text-muted-foreground leading-relaxed">
               A meticulously crafted 5-phase approach ensuring operational viability, global sustainability, and peak efficiency across five continents.
             </p>

@@ -63,7 +63,7 @@ export function CaseStudies() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
             Case Studies
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-secondary-foreground leading-tight text-balance">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-secondary-foreground leading-tight text-balance">
             Real impact across international sport
           </h2>
         </div>
@@ -97,7 +97,7 @@ export function CaseStudies() {
                       {study.client}
                     </span>
                   </div>
-                  <h3 className="font-serif text-2xl font-bold text-card-foreground">
+                  <h3 className="font-heading text-2xl font-bold text-card-foreground">
                     {study.title}
                   </h3>
                   <p className="mt-4 text-muted-foreground leading-relaxed">

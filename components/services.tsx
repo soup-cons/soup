@@ -60,7 +60,7 @@ export function Services() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
             What We Do
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
             Our collection of services spans every stage of athlete development
           </h2>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
@@ -87,7 +87,7 @@ export function Services() {
                 </div>
               </div>
               <div className="p-8 pt-6 flex-1 flex flex-col">
-                <h3 className="font-serif text-xl font-bold text-card-foreground">
+                <h3 className="font-heading text-xl font-bold text-card-foreground">
                   {service.title}
                 </h3>
                 <p className="mt-3 text-muted-foreground leading-relaxed flex-1">

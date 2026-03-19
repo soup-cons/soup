@@ -57,7 +57,7 @@ export function Team() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
             Our Team
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
             Meet the people behind SOUP
           </h2>
           <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
@@ -79,7 +79,7 @@ export function Team() {
                   className="h-full w-full object-cover object-top"
                 />
               </div>
-              <h3 className="mt-6 font-serif text-xl font-bold text-card-foreground">
+              <h3 className="mt-6 font-heading text-xl font-bold text-card-foreground">
                 {member.name}
               </h3>
               <p className="text-sm font-medium text-accent mt-1">{member.role}</p>

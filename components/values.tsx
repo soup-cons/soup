@@ -32,7 +32,7 @@ export function Values() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
             Our Values
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary-foreground leading-tight text-balance">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground leading-tight text-balance">
             The principles that guide everything we do
           </h2>
         </div>
@@ -55,7 +55,7 @@ export function Values() {
                 </div>
               </div>
               <div className="p-8 pt-6 flex-1 flex flex-col">
-                <h3 className="font-serif text-2xl font-bold text-primary-foreground">
+                <h3 className="font-heading text-2xl font-bold text-primary-foreground">
                   {value.title}
                 </h3>
                 <p className="mt-4 text-primary-foreground/70 leading-relaxed flex-1">

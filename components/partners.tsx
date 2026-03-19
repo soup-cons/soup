@@ -42,7 +42,7 @@ export function Partners() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
             Partners & Certifications
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-secondary-foreground leading-tight text-balance">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-secondary-foreground leading-tight text-balance">
             Backed by world-class partners
           </h2>
         </div>
@@ -68,7 +68,7 @@ export function Partners() {
                 </div>
               </div>
               <div className="p-8 pt-6 flex-1 flex flex-col">
-                <h3 className="font-serif text-2xl font-bold text-card-foreground">
+                <h3 className="font-heading text-2xl font-bold text-card-foreground">
                   {partner.name}
                 </h3>
                 <p className="mt-3 text-muted-foreground leading-relaxed flex-1">
@@ -81,7 +81,7 @@ export function Partners() {
 
         {/* Certifications */}
         <div className="mt-16 rounded-2xl border border-border bg-card p-10">
-          <h3 className="font-serif text-2xl font-bold text-card-foreground text-center mb-8">
+          <h3 className="font-heading text-2xl font-bold text-card-foreground text-center mb-8">
             Our Certifications
           </h3>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

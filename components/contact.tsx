@@ -12,7 +12,7 @@ export function Contact() {
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
               Contact
             </p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary-foreground leading-tight text-balance">
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground leading-tight text-balance">
               Ready to elevate your athletes{"'"} potential?
             </h2>
             <p className="mt-6 text-lg text-primary-foreground/70 leading-relaxed">
@@ -50,7 +50,7 @@ export function Contact() {
 
           {/* Right: form */}
           <div className="rounded-2xl bg-primary-foreground/5 border border-primary-foreground/10 p-8 lg:p-10">
-            <h3 className="font-serif text-2xl font-bold text-primary-foreground mb-8">
+            <h3 className="font-heading text-2xl font-bold text-primary-foreground mb-8">
               Get in touch
             </h3>
             <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>

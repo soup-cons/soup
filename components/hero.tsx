@@ -26,7 +26,7 @@ export function Hero() {
         <p className="text-sm font-medium uppercase tracking-[0.25em] text-primary-foreground/70 mb-6">
           Sports Oriented Understanding People
         </p>
-        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.05] text-primary-foreground text-balance">
+        <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.05] text-primary-foreground text-balance">
           Bridging the Gap Between Data, Strategy
           <span className="text-accent"> & Excellence</span>
         </h1>

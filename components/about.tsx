@@ -7,7 +7,7 @@ export function About() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent mb-4">
             About Us
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground leading-tight text-balance">
             Founded to put people at the heart of sport
           </h2>
         </div>
@@ -51,7 +51,7 @@ export function About() {
           {/* Right: mission / vision / purpose cards */}
           <div className="space-y-6">
             <div className="rounded-2xl border border-border bg-card p-8">
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-3">
+              <h3 className="font-heading text-xl font-bold text-card-foreground mb-3">
                 Our Purpose
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -60,7 +60,7 @@ export function About() {
               </p>
             </div>
             <div className="rounded-2xl border border-border bg-card p-8">
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-3">
+              <h3 className="font-heading text-xl font-bold text-card-foreground mb-3">
                 Our Mission
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -72,7 +72,7 @@ export function About() {
               </p>
             </div>
             <div className="rounded-2xl border border-border bg-card p-8">
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-3">
+              <h3 className="font-heading text-xl font-bold text-card-foreground mb-3">
                 Our Vision
               </h3>
               <p className="text-muted-foreground leading-relaxed">
@@ -93,7 +93,7 @@ export function About() {
             { value: "6", label: "Partners" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
-              <p className="font-serif text-4xl md:text-5xl font-bold text-accent">
+              <p className="font-heading text-4xl md:text-5xl font-bold text-accent">
                 {stat.value}
               </p>
               <p className="mt-2 text-sm text-muted-foreground">{stat.label}</p>
