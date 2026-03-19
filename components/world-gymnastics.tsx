@@ -27,10 +27,10 @@ export function WorldGymnastics() {
               </div>
               <h3 className="font-serif text-2xl font-semibold text-foreground">Introduction</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                SOUP Consulting was founded to help international sports organizations better understand the evolving relationship between athletes, culture, and society. With an approach reflecting the global diversity symbolized by the Olympic rings, we combine expertise in athlete development, sport governance, and youth engagement.
+                The era of Generation Alpha has arrived. For sports organizations, adaptation is a requirement for survival; failure to evolve risks total irrelevance. WG sits at a crossroads. While the sport connects with this demographic, it faces a looming star vacuum.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Gymnastics remains one of the most widely practiced Olympic sports. However, the system faces key structural challenges: safeguarding gaps, inconsistent coaching, and high demands on athletes. Our vision involves three pillars: strengthening safeguarding, tracking athlete wellbeing, and fostering youth engagement.
+                As SOUP, we recommend Mixed Flow Gymnastics under the Artistic discipline. By merging technical mastery with the raw creativity of Generation Alpha, this format fosters a youth-first future. Mixed Flow balances athlete diversity with competitive excellence, ensuring a high-performance stage that transforms gymnastics from a rigid tradition into a vibrant, media-dynamic powerhouse.
               </p>
             </div>
 
@@ -48,7 +48,7 @@ export function WorldGymnastics() {
             {/* Format (Mixed Flow) */}
             <div className="space-y-4">
               <div className="h-64 sm:h-80 w-full relative rounded-2xl overflow-hidden mb-6 border border-border">
-                <img src="/images/gymnastics_format_v2_1773844818313.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Mixed Flow Gymnastics Format" />
+                <img src="/images/gymnastics_format_v3.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Mixed Flow Gymnastics Format" />
               </div>
               <h3 className="font-serif text-2xl font-semibold text-foreground">Format</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -56,10 +56,9 @@ export function WorldGymnastics() {
               </p>
               <ul className="grid sm:grid-cols-2 gap-4 mt-4">
                 {[
-                  "Technical execution (40%)",
+                  "Technical execution (50%)",
                   "Creativity and flow (30%)",
-                  "Team interaction (20%)",
-                  "Audience engagement (10%)"
+                  "Team interaction (20%)"
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 bg-background p-4 rounded-xl border border-border">
                     <CheckCircle2 className="h-5 w-5 text-accent shrink-0 mt-0.5" />
@@ -102,7 +101,7 @@ export function WorldGymnastics() {
                       </div>
                       <div className="p-5 flex-1 flex flex-col">
                         <h5 className="font-bold text-lg text-foreground">Arthur Nory</h5>
-                        <span className="text-xs font-bold text-accent uppercase tracking-wide mb-3">Audience engagement leader</span>
+                        <span className="text-xs font-bold text-accent uppercase tracking-wide mb-3">Charismatic performance leader</span>
                         <p className="text-sm text-muted-foreground leading-relaxed flex-1">Olympic & World medalist. Known for expressiveness and showmanship, highly suitable for a performance-driven competition.</p>
                       </div>
                     </div>
@@ -152,7 +151,7 @@ export function WorldGymnastics() {
                       <div className="p-5 flex-1 flex flex-col">
                         <h5 className="font-bold text-lg text-foreground">Fred Richard</h5>
                         <span className="text-xs font-bold text-accent uppercase tracking-wide mb-3">Digital ambassador & motivator</span>
-                        <p className="text-sm text-muted-foreground leading-relaxed flex-1">World Bronze Medalist. Combines high-level performance and strong digital engagement to reach younger audiences.</p>
+                        <p className="text-sm text-muted-foreground leading-relaxed flex-1">World Bronze Medalist. Combines high-level performance and dynamic routines that inspire the next generation.</p>
                       </div>
                     </div>
                     <div className="bg-background border border-border rounded-2xl overflow-hidden flex flex-col group">
@@ -191,14 +190,14 @@ export function WorldGymnastics() {
             {/* Marketing & Media */}
             <div className="bg-card border border-border rounded-3xl p-8">
               <div className="h-48 w-full relative rounded-xl overflow-hidden mb-6 border border-border">
-                <img src="/images/gymnastics_marketing_1773844853181.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Inclusive Global Marketing & Media" />
+                <img src="/images/gymnastics_marketing_v3.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Inclusive Global Marketing & Media" />
               </div>
               <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Marketing & Media</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Our high-impact social media campaign will drive unprecedented reach and visibility across the globe. By using multi-lingual content and highly diverse imagery, we ensure broad cultural connection with Generation Alpha.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                <strong>The Documentary:</strong> A dedicated documentary-style web series will capture the genuine journey of legends and trailblazers interacting with the Mixed Flow format. This provides deep storytelling value, engaging new audiences on digital and social platforms simultaneously.
+                <strong>The Documentary:</strong> A dedicated documentary-style web series will capture the genuine journey of legends and trailblazers interacting with the Mixed Flow format. This provides deep storytelling value, connecting deeply with fans on digital and social platforms simultaneously.
               </p>
             </div>
 
@@ -207,9 +206,9 @@ export function WorldGymnastics() {
               <div className="h-48 w-full relative rounded-xl overflow-hidden mb-6 border border-border">
                 <img src="/images/gymnastics_infrastructure_v2_1773844837358.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Modern Gymnastics Infrastructure" />
               </div>
-              <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Infrastructure</h3>
+              <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Infrastructure & Ecosystem</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Five continental educational hubs will serve as centers for knowledge sharing. Gymnova, Spieth Gymnastics, Taishan Sports, and Senoh provide equipment and facility support. Fujitsu builds the foundational technology for scoring.
+                Five continental educational hubs will serve as centers for knowledge sharing. Gymnova, Spieth Gymnastics, Taishan Sports, and Senoh provide equipment and facility support. International finance flow will be handled by Corpay, while Olympic Solidarity and the Gymnastics Ethics Foundation will oversee coach education. Our approach is based on the 5'C coaching model by Boldly: Connection, Clarity, Commitment, Challenge, and Change.
               </p>
               <div className="space-y-3">
                 <div className="bg-background rounded-xl p-4 border border-border">
@@ -217,8 +216,12 @@ export function WorldGymnastics() {
                   <span className="text-sm text-muted-foreground">Gymnova, Spieth, Taishan, Senoh</span>
                 </div>
                 <div className="bg-background rounded-xl p-4 border border-border">
-                  <span className="block text-sm font-semibold text-foreground mb-1">Tech / Analytics</span>
-                  <span className="text-sm text-muted-foreground">Fujitsu (AEIS Hub)</span>
+                  <span className="block text-sm font-semibold text-foreground mb-1">Coaching & Governance</span>
+                  <span className="text-sm text-muted-foreground">Olympic Solidarity, GymnEthics Foundation, Boldly</span>
+                </div>
+                <div className="bg-background rounded-xl p-4 border border-border">
+                  <span className="block text-sm font-semibold text-foreground mb-1">Finance Partner</span>
+                  <span className="text-sm text-muted-foreground">Corpay</span>
                 </div>
               </div>
             </div>
@@ -249,16 +252,20 @@ export function WorldGymnastics() {
             <div className="bg-card border border-border rounded-3xl p-8">
               <h3 className="font-serif text-xl font-bold text-card-foreground mb-4">Feasibility Roadmap</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                We estimate a cash flow of 1,005,000 Euro over five years (2030-2035) from New Sponsorship, Digital Media Rights, Licensing, and Asset Terminal Value.
+                Our expert Finance team has thoroughly examined the projected cost. WG certification and development costs stand at 450,000 Euro. We estimate a discounted cash flow of 1,005,000 Euro over five years (2030-2035) from New Sponsorship, Digital Media Rights, Licensing, and Asset Terminal Value.
               </p>
               <ul className="space-y-4">
+                <li className="flex justify-between items-center border-b border-border pb-4">
+                  <span className="text-sm font-medium text-foreground">Initial Cost</span>
+                  <span className="text-lg font-bold text-accent">€450,000</span>
+                </li>
                 <li className="flex justify-between items-center border-b border-border pb-4">
                   <span className="text-sm font-medium text-foreground">Estimated ROI</span>
                   <span className="text-lg font-bold text-emerald-500">~14%</span>
                 </li>
                 <li className="flex justify-between items-center border-b border-border pb-4">
                   <span className="text-sm font-medium text-foreground">SROI Constraint</span>
-                  <span className="text-lg font-bold text-emerald-500">0.44€ / viewer</span>
+                  <span className="text-lg font-bold text-emerald-500">€0.44 / viewer</span>
                 </li>
                 <li className="flex justify-between items-center pt-2">
                   <span className="text-sm font-medium text-foreground">Projected 2030 Audience</span>
@@ -286,11 +293,11 @@ export function WorldGymnastics() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
             {[
-              { title: "Kickoff Phase", phase: "1", desc: "High-impact media campaign and Legends Show match around Dakar 2026.", icon: "🚀" },
-              { title: "Seed Phase", phase: "2", desc: "Building operational staff, creating 5 educational hubs, and the Alpha Engagement Hub.", icon: "🌱" },
-              { title: "Pilot Phase", phase: "3", desc: "Testing operations at the 2027 Pan American Games (Lima) with 5 youth teams.", icon: "🎯" },
-              { title: "Expansion Phase", phase: "4", desc: "Distribute ruleset to all National Federations & accredit international judges.", icon: "🌍" },
-              { title: "Roll-Out Phase", phase: "5", desc: "Final integration into the 2030 Youth Olympic Games as a permanent Discipline.", icon: "🏆" }
+              { title: "Kickoff Phase", phase: "1", desc: "High-impact media campaign, Legends Show (Dakar 2026), documentary web series, & broadcast value creation.", icon: "🚀" },
+              { title: "Seed Phase", phase: "2", desc: "Q4 2026 – Q2 2027: Building operational staff, creating 5 continental hubs, and accrediting international coaches/judges.", icon: "🌱" },
+              { title: "Pilot Phase", phase: "3", desc: "Lima 2027 (Pan Am & Parapan Games): 5 teams representing the rings. Targeting 90% positive athlete feedback and 15% increase in youth viewership.", icon: "🎯" },
+              { title: "Expansion Phase", phase: "4", desc: "2028–2029: Distribute global ruleset & accredit 100+ international judges and 500+ coaches via train-the-trainer hubs.", icon: "🌍" },
+              { title: "Roll-Out Phase", phase: "5", desc: "2029–2030: Final integration into the 2030 YOG program as a permanent Mixed-Gender Team Discipline for both able-bodied and para-athletes.", icon: "🏆" }
             ].map((item) => (
               <div key={item.phase} className="bg-card border border-border rounded-2xl p-6 relative overflow-hidden group hover:border-accent transition-colors flex flex-col">
                 <div className="text-4xl mb-4 relative z-10">{item.icon}</div>

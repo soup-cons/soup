@@ -74,7 +74,7 @@ export function Footer() {
             </p>
           </div>
           <p className="text-[10px] text-background/30 max-w-2xl mt-1">
-            Disclaimer: SOUP Consulting Agency is a fictitious entity created for demonstration purposes only. It is not a real company, and any resemblance to actual entities or organizations is purely coincidental.
+            Disclaimer: SOUP Consulting Agency is a fictitious entity created for demonstration purposes only. It is not a real company. This is all hypothetical for a case study.
           </p>
         </div>
       </div>
