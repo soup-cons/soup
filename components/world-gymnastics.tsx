@@ -27,6 +27,9 @@ export function WorldGymnastics() {
               </div>
               <h3 className="font-heading text-2xl font-semibold text-foreground">Introduction</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
+                SOUP Consulting was founded to help international sports organizations better understand the evolving relationship between athletes, culture, and society. Having offices across all five continents (Africa, Americas, Asia, Europe, and Oceania) where we bring together experts, our team reflects true global diversity and specializes in athlete development, sport governance, and youth engagement.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
                 The era of Generation Alpha has arrived. For sports organizations, adaptation is a requirement for survival; failure to evolve risks total irrelevance. WG sits at a crossroads. While the sport connects with this demographic, it faces a looming star vacuum.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -41,7 +44,10 @@ export function WorldGymnastics() {
               </div>
               <h3 className="font-heading text-2xl font-semibold text-foreground">Governing & Structure</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Scandals have revealed serious failures within elite gymnastics, demonstrating the need for stronger global protection. The first pillar focuses on strengthening safeguarding and coaching standards worldwide through a mandatory WG digital learning platform yielding a Global Youth Coaching License. This is reinforced by a global eligibility register closing safeguarding gaps.
+                Scandals have revealed serious failures within elite gymnastics, demonstrating the need for stronger global protection. The first pillar focuses on strengthening safeguarding worldwide through a mandatory WG digital learning platform yielding a Global Youth Coaching License. This is reinforced by a global eligibility register closing safeguarding gaps.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed mt-4">
+                The second pillar focuses on wellbeing. We propose a Global Injury and Training Load Reporting System to track training hours and early signs of burnout. This is supported by an International Coach Buddy System to promote peer learning, accountability, and better decision-making in athlete development.
               </p>
             </div>
 
@@ -52,12 +58,12 @@ export function WorldGymnastics() {
               </div>
               <h3 className="font-heading text-2xl font-semibold text-foreground">Format</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Under the Artistic discipline, Mixed Flow Gymnastics balances athlete diversity with competitive excellence. It merges technical mastery with raw creativity, aiming at Generation Alpha. The format features direct confrontations between two mixed teams of four gymnasts (two women and two men) across four rounds. Scoring components are:
+                Under the Artistic discipline, Mixed Flow Gymnastics merges technical mastery with raw creativity, aiming at Generation Alpha. The format features direct confrontations between two mixed teams of four (2w/2m) across four rounds. In Round 1 (60s), athletes perform a pre-determined routine on certified apparatus (floor, trampette, low bar structure, rapid horizontal bar). In Round 2 (60s), the focus shifts to creativity and urban/artistic choreography. Athletes must use all 4 apparatus and begin with the final movement of the previous team. Scoring components are:
               </p>
               <ul className="grid sm:grid-cols-2 gap-4 mt-4">
                 {[
-                  "Technical execution (50%)",
-                  "Creativity and flow (30%)",
+                  "Technical execution (40%)",
+                  "Creativity and flow (40%)",
                   "Team interaction (20%)"
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 bg-background p-4 rounded-xl border border-border">
@@ -240,18 +246,42 @@ export function WorldGymnastics() {
             <div className="bg-card border border-border rounded-3xl p-8">
               <h3 className="font-heading text-xl font-bold text-card-foreground mb-4">Feasibility Roadmap</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Our expert Finance team has thoroughly examined the projected cost. WG certification and development costs stand at 450,000 Euro. We estimate a discounted cash flow of 1,005,000 Euro over five years (2030-2035) from New Sponsorship, Licensing, and Asset Terminal Value.
+                Our expert Finance team has thoroughly examined the projected cost. WG certification and development costs stand at 450,000 Euro. We estimate a discounted cash flow of 1,005,000 Euro over five years (2030-2035) from New Sponsorship, Digital Media Rights, Licensing, and Asset Terminal Value.
               </p>
               <ul className="space-y-4">
                 <li className="flex justify-between items-center border-b border-border pb-4">
                   <span className="text-sm font-medium text-foreground">Initial Cost</span>
                   <span className="text-lg font-bold text-accent">€450,000</span>
                 </li>
-                <li className="flex justify-between items-center pt-2">
+                <li className="flex justify-between items-center border-b border-border pb-4">
                   <span className="text-sm font-medium text-foreground">Estimated ROI</span>
                   <span className="text-lg font-bold text-emerald-500">~14%</span>
                 </li>
+                <li className="flex justify-between items-center border-b border-border pb-4">
+                  <span className="text-sm font-medium text-foreground">SROI Constraint</span>
+                  <span className="text-lg font-bold text-emerald-500">€0.44 / viewer</span>
+                </li>
+                <li className="flex justify-between items-center pt-2">
+                  <span className="text-sm font-medium text-foreground">Projected 2030 Audience</span>
+                  <span className="text-lg font-bold text-emerald-500">2M Gen Alpha</span>
+                </li>
               </ul>
+            </div>
+
+            {/* Conclusion */}
+            <div className="relative mt-8 overflow-hidden rounded-3xl border border-accent/30 bg-gradient-to-br from-background via-background to-accent/10 p-8 md:p-12 shadow-2xl">
+              <div className="absolute top-0 right-0 -mr-12 -mt-12 w-64 h-64 bg-accent/20 blur-[100px] rounded-full pointer-events-none"></div>
+              <div className="relative z-10 max-w-4xl mx-auto text-center space-y-6">
+                <span className="inline-block py-1 px-3 rounded-full bg-accent/10 text-accent text-sm font-bold tracking-wider uppercase mb-2">The Future</span>
+                <h3 className="font-heading text-3xl md:text-5xl font-extrabold text-foreground pb-2">The Vision</h3>
+                <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light">
+                  Adopting <strong className="text-foreground font-semibold">Mixed Flow Gymnastics</strong> is essential to transcend current crossroads. Despite rising geopolitical tensions presenting significant implementation challenges, this inclusive format offers a unique platform to foster <span className="text-accent font-semibold">global unity and peace</span> through the Olympic spirit. 
+                </p>
+                <div className="w-24 h-1 bg-accent/50 mx-auto rounded-full my-6"></div>
+                <p className="text-lg md:text-xl text-muted-foreground/80 italic">
+                  "It transforms a rigid tradition into a resilient, media-dynamic powerhouse for the next generation."
+                </p>
+              </div>
             </div>
 
           </div>

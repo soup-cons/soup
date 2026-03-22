@@ -128,6 +128,9 @@ importers:
       pdf-export-images:
         specifier: ^1.2.0
         version: 1.2.0
+      pdf2json:
+        specifier: ^4.0.2
+        version: 4.0.2
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -1763,6 +1766,11 @@ packages:
     resolution: {integrity: sha512-JI9bH0k6gJae6VxYiiRWduloQmdk4ykLozYvENj/gunsW0NdA4lUFbmdMFHrhF0uJu+P2cNfiAdUPCHmTmrKlQ==}
     hasBin: true
 
+  pdf2json@4.0.2:
+    resolution: {integrity: sha512-iiRSuRmLihoEJ4YGkoqSq3/r4MR0OmkMTYDda0Pq7DAWqJwMylTilXu46T16gfS3DUp3fhiVuz7NtRMbk3uBhw==}
+    engines: {node: '>=20.18.0'}
+    hasBin: true
+
   pdfjs-dist@4.10.38:
     resolution: {integrity: sha512-/Y3fcFrXEAsMjJXeL9J8+ZG9U01LbuWaYypvDW2ycW1jL269L3js3DVBjDJ0Up9Np1uqDXsDrRihHANhZOlwdQ==}
     engines: {node: '>=20'}
@@ -3351,6 +3359,8 @@ snapshots:
     dependencies:
       pdfjs-dist: 4.10.38
       sharp: 0.33.5
+
+  pdf2json@4.0.2: {}
 
   pdfjs-dist@4.10.38:
     optionalDependencies:
