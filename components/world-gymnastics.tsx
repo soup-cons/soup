@@ -53,8 +53,17 @@ export function WorldGymnastics() {
 
             {/* Format (Mixed Flow) */}
             <div className="space-y-4">
-              <div className="h-64 sm:h-80 w-full relative rounded-2xl overflow-hidden mb-6 border border-border">
-                <img src="/images/gymnastics_format_v3.png" className="object-cover w-full h-full hover:scale-105 transition-transform duration-700" alt="Mixed Flow Gymnastics Format" />
+              <div className="w-full relative rounded-2xl overflow-hidden mb-6 border border-border shadow-2xl bg-black">
+                <video 
+                  src="/videos/gymnastics_demo.mp4" 
+                  className="w-full h-auto" 
+                  autoPlay 
+                  loop 
+                  muted 
+                  playsInline 
+                  controls 
+                  aria-label="Mixed Flow Gymnastics Format Demonstration"
+                />
               </div>
               <h3 className="font-heading text-2xl font-semibold text-foreground">Format</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
