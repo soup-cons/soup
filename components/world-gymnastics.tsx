@@ -196,7 +196,7 @@ export function WorldGymnastics() {
               </div>
               <h3 className="font-heading text-xl font-bold text-card-foreground mb-4">Infrastructure & Ecosystem</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Five continental educational hubs will serve as centers for knowledge sharing. Gymnova, Spieth Gymnastics, Taishan Sports, and Senoh provide equipment and facility support. International finance flow will be handled by Corpay, while Olympic Solidarity and the Gymnastics Ethics Foundation will oversee coach education. Our approach is based on the 5'C coaching model by Boldly: Connection, Clarity, Commitment, Challenge, and Change.
+                Five continental educational hubs will serve as centers for knowledge sharing. Gymnova, Spieth Gymnastics, Taishan Sports, and Senoh provide equipment and facility support. International finance flow will be handled by Corpay, while Olympic Solidarity and the Gymnastics Ethics Foundation will oversee coach education. Our approach is based on the 5&apos;C coaching model by Boldly: Connection, Clarity, Commitment, Challenge, and Change.
               </p>
               <div className="space-y-3">
                 <div className="bg-background rounded-xl p-4 border border-border">
