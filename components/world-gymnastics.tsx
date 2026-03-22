@@ -286,10 +286,11 @@ export function WorldGymnastics() {
                 <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed font-light">
                   Adopting <strong className="text-foreground font-semibold">Mixed Flow Gymnastics</strong> is essential to transcend current crossroads. Despite rising geopolitical tensions presenting significant implementation challenges, this inclusive format offers a unique platform to foster <span className="text-accent font-semibold">global unity and peace</span> through the Olympic spirit. 
                 </p>
-                <div className="w-24 h-1 bg-accent/50 mx-auto rounded-full my-6"></div>
-                <p className="text-lg md:text-xl text-muted-foreground/80 italic">
-                  "It transforms a rigid tradition into a resilient, media-dynamic powerhouse for the next generation."
-                </p>
+                <div className="w-24 h-1 bg-accent/50 mx-auto rounded-full my-8"></div>
+                <h4 className="font-heading text-2xl md:text-4xl font-bold text-foreground leading-tight">
+                  &quot;The future of gymnastics isn&apos;t something we predict. <br/>
+                  <span className="text-accent">It&apos;s something we build together.</span>&quot;
+                </h4>
               </div>
             </div>
 
