@@ -4,7 +4,7 @@ const team = [
     role: "CEO & Founder",
     share: "32%",
     description:
-      "Founded SOUP in 2019 with a vision to support athletes holistically. Leads overall strategy and client relationships across four continents.",
+      "Founded SOUP in 2019 with a vision to support athletes holistically. Leads overall strategy and client relationships across five continents.",
     image: "/images/hero-derya.jpg",
   },
   {

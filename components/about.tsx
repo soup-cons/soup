@@ -35,7 +35,7 @@ export function About() {
                 With the aim of providing support to athletes by giving them tools that
                 complement their sport, Derya Ucpinar founded SOUP Consulting Agency in
                 2019 in Paris, France. Since then, we have worked with athletes from all
-                continents to help them with mental health, financial education, and dual
+                5 continents to help them with mental health, financial education, and dual
                 career planning.
               </p>
               <div className="pt-4 flex items-center gap-4">
@@ -88,7 +88,7 @@ export function About() {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-border pt-12">
           {[
             { value: "7+", label: "Years of Experience" },
-            { value: "4", label: "Continents Served" },
+            { value: "5", label: "Continents Served" },
             { value: "30", label: "Professionals" },
             { value: "6", label: "Partners" },
           ].map((stat) => (
